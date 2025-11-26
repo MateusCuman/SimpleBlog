@@ -25,7 +25,6 @@ class Perfil(EnumEntidade):
         - Correto: perfil = Perfil.ADMIN.value
         - Correto: perfil = Perfil.AUTOR.value
         - Correto: perfil = Perfil.LEITOR.value
-        - ERRADO: perfil = "admin"
         - ERRADO: perfil = "cliente"
         - ERRADO: perfil = "vendedor"
     """

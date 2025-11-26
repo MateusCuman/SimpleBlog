@@ -113,7 +113,7 @@
     </h2>
     <div class="d-flex flex-wrap gap-2">
         {% for cat in categorias %}
-        <a href="/artigos?categoria={{ cat.id }}" class="btn btn-outline-secondary">
+        <a href="/artigos/categoria={{ cat.id }}" class="btn btn-outline-secondary">
             <i class="bi bi-tag"></i> {{ cat.nome }}
         </a>
         {% endfor %}
