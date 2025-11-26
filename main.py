@@ -45,7 +45,6 @@ from repo import (
 # Rotas
 # ------------------------------------------------------------
 from routes.auth_routes import router as auth_router
-from routes.tarefas_routes import router as tarefas_router
 from routes.chamados_routes import router as chamados_router
 from routes.admin_usuarios_routes import router as admin_usuarios_router
 from routes.admin_configuracoes_routes import router as admin_config_router
@@ -122,7 +121,6 @@ def create_app() -> FastAPI:
     # ------------------------------------------------------------
     routers = [
         auth_router,
-        tarefas_router,
         chamados_router,
         admin_usuarios_router,
         admin_config_router,

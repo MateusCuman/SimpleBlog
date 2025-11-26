@@ -1,6 +1,6 @@
 from typing import Optional
 from model.artigo_model import Artigo
-from sql.artigo_sql import *
+from sql.sql_artigo import *
 from sql.chamado_sql import OBTER_POR_USUARIO
 from sql.sql_artigo import INCREMENTAR_VISUALIZACOES, OBTER_POR_CATEGORIA, OBTER_PUBLICADOS, OBTER_QUANTIDADE, OBTER_QUANTIDADE_PUBLICADOS, OBTER_TODOS, OBTER_ULTIMOS_PUBLICADOS, VERIFICAR_TITULO_EXISTE
 from util.db_util import obter_conexao as get_connection
