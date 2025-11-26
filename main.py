@@ -171,7 +171,7 @@ if __name__ == "__main__":
             "main:app",
             host=HOST,
             port=PORT,
-            reload=RELOAD,
+            #reload=RELOAD,
             log_level="info",
         )
     except KeyboardInterrupt:
