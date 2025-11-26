@@ -23,8 +23,8 @@ class Perfil(EnumEntidade):
 
     Exemplos:
         - Correto: perfil = Perfil.ADMIN.value
-        - Correto: perfil = Perfil.CLIENTE.value
-        - Correto: perfil = Perfil.VENDEDOR.value
+        - Correto: perfil = Perfil.AUTOR.value
+        - Correto: perfil = Perfil.LEITOR.value
         - ERRADO: perfil = "admin"
         - ERRADO: perfil = "cliente"
         - ERRADO: perfil = "vendedor"
@@ -32,8 +32,8 @@ class Perfil(EnumEntidade):
 
     # PERFIS DO SEU SISTEMA #####################################
     ADMIN = "Administrador"
-    CLIENTE = "Cliente"
-    VENDEDOR = "Vendedor"
+    CLIENTE = "Autor"
+    VENDEDOR = "Leitor"
     # FIM DOS PERFIS ############################################
 
     # Alias para compatibilidade com código legado
